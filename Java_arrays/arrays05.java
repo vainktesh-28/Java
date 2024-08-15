@@ -25,7 +25,7 @@ public class arrays05 {
 
         //Printing in a reverse order
         System.out.println("Printing in a reverse order");
-        for(int i =marks.length - 1; i>=0; i--){
+        for(int i =marks.length - 1; i>0; i--){
            System.out.println(marks[i]);
         }
 
