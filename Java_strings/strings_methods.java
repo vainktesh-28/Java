@@ -16,5 +16,9 @@ public class strings_methods {
         //Method 3 (Find the number of characters)
         int value = name.length();
         System.out.println(value);
+
+        //Method 4 (Replacing a character )
+        String rechar = name.replace('a', 'p');
+        System.out.println(rechar);
     }
 }
